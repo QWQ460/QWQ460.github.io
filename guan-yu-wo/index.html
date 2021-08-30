@@ -7,7 +7,7 @@
 <title>
                                            关于我 | 桜気葉のBlog
 </title>
-<link rel="shortcut icon" href="https://qwq460.github.io/favicon.ico?v=1630334552100">
+<link rel="shortcut icon" href="https://qwq460.github.io/favicon.ico?v=1630335389778">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
 <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
@@ -20,6 +20,13 @@
 
 
         
+            
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+                
+
+                    
+                            
 </head>
 
 <body>
@@ -28,7 +35,7 @@
     <div class="nav">
         <div class="logo">
             <a href="https://qwq460.github.io">
-                <img class="avatar" src="https://qwq460.github.io/images/avatar.png?v=1630334552100" alt="">
+                <img class="avatar" src="https://qwq460.github.io/images/avatar.png?v=1630335389778" alt="">
             </a>
             <div class="site-title">
                 <h1>
@@ -125,6 +132,8 @@
 <p>UI和优化可能会做的稀烂 等有钱有时间了再正式做一个</p>
 <p>虽然这只是一个测试网站 但请大家珍惜每一部作品</p>
 <p>非商业行为 ！非商业行为！ 非商业行为！</p>
+<p>站内的所有解压密码均为2333</p>
+<p>请不要再线解压 用7Z WinRAR等软件plz</p>
 
                                 </div>
                     </article>
@@ -202,6 +211,26 @@
         });
     </script>
     
+        
+            <script>
+    window.onload = function() {
+        var gitalk = new Gitalk({
+            clientID: '',
+            clientSecret: '',
+            repo: '',
+            owner: '',
+            admin: [''],
+            id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+            distractionFreeMode: false // Facebook-like distraction free mode
+        })
+
+        gitalk.render('gitalk-container')
+    }
+</script>
+                
+
+                    
+                                
 </body>
 
 </html>
