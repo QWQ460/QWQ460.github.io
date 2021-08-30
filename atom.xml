@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qwq460.github.io</id>
-    <title>桜気葉の小窝</title>
-    <updated>2021-08-30T01:14:34.857Z</updated>
+    <title>桜気葉のBlog</title>
+    <updated>2021-08-30T01:47:51.058Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qwq460.github.io"/>
     <link rel="self" href="https://qwq460.github.io/atom.xml"/>
@@ -11,5 +11,5 @@
 就好像是永远都无法分开的羁绊一样</subtitle>
     <logo>https://qwq460.github.io/images/avatar.png</logo>
     <icon>https://qwq460.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, 桜気葉の小窝</rights>
+    <rights>All rights reserved 2021, 桜気葉のBlog</rights>
 </feed>
